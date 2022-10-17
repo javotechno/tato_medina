@@ -1,0 +1,26 @@
+footer {
+  .icono-footer{
+    font-size: 26px;
+  }
+
+  .nav-item a:hover {
+      color: $color-azul;
+
+      &:hover {
+        color:$color-azul;
+      }
+    }
+
+   .contact ul li {
+     p {
+       display: inline-block;
+     }
+   }
+
+
+.copyrigth {
+  @include fontstyle(10px, 28px);
+  background-color: $color-rojo;
+  color: $color-blanco;
+}
+}
